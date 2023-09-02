@@ -1,0 +1,15 @@
+.logo {
+	width: 100%;
+	max-width: 250px;
+	height: auto;
+}
+
+.navbar {
+	padding: .5rem 0rem;
+	border-bottom: 1px solid grey;
+	margin-bottom: 1rem;
+}
+
+.navbar-nav a.nav-link:last-of-type {
+	padding-right: 0;
+}
