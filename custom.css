@@ -48,6 +48,12 @@ body {
 	width: 100%;
 }
 
+.highlight-text {
+	background-color: #0c1523;
+	padding: 5px;
+	display: inline;
+}
+
 .content-box {
 	max-width: 750px;
 	margin: 0px auto;
@@ -103,4 +109,26 @@ footer a {
 footer a.hover {
 	color: white;
 	text-decoration: underline;
+}
+
+.card-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover .card-overlay {
+    display: block;
+    opacity: 1;
+}
+
+.card-description {
+    padding: 10px;
 }
