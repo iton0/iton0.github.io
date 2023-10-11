@@ -49,9 +49,9 @@ body {
 }
 
 .highlight-text {
-	background-color: #0c1523;
 	padding: 5px;
 	display: inline;
+	text-align: center;
 }
 
 .content-box {
@@ -74,7 +74,7 @@ h1 {
 .potrait-image {
 	float: left;
 	max-width: 200px;
-	margin: 5px 15px 15px 0px;
+	margin: 5px 15px 0px 0px;
 }
 
 .card {
