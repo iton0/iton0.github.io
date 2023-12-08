@@ -133,6 +133,10 @@ i:hover {
   color: #1e90ff;
 }
 
+.container.text-center a {
+  margin-right: 10px;
+}
+
 footer {
   background-color: inherit;
   color: inherit;
