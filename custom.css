@@ -40,6 +40,8 @@ header a.current-page {
 }
 
 .column {
+  display: flex;
+  justify-content: center;
   padding: 0.5rem 0rem;
   margin-bottom: 1rem;
 }
@@ -150,4 +152,19 @@ footer a {
 
 footer a:hover {
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    overflow-x: hidden;
+  }
+
+  .column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column a {
+    margin: 5px 0;
+  }
 }
