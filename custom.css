@@ -1,13 +1,13 @@
 html {
   position: relative;
-  min-height: 100svh;
+  min-height: 100dvh;
 }
 
 body {
   display: flex;
   background-color: #282c34;
   color: #abb2bf;
-  min-height: 100svh;
+  min-height: 100dvh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
