@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihsan Tonuzi</title>
+<style>
+  body {
+   font-family: sans-serif;
+   margin: 20px;
+   line-height: 1.6;
+   color: var(--text-color);
+   background-color: var(--background-color);
+   transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: var(--container-background-color);
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  h1 {
+   font-size: 2em;
+   margin-bottom: 10px;
+   text-align: center;
+  }
+  .links {
+   margin-top: 20px;
+   text-align: center;
+  }
+  .links a {
+   display: inline-block;
+   margin: 0 10px;
+   text-decoration: none;
+   color: var(--link-color);
+   transition: color 0.3s ease;
+  }
+  .links a:hover {
+   text-decoration: underline;
+  }
+  p.email {
+   margin-top: 20px;
+   text-align: center;
+  }
+  p.email a {
+   text-decoration: none;
+   color: var(--text-color);
+   transition: color 0.3s ease;
+  }
+  p.email a:hover {
+   text-decoration: underline;
+  }
+
+  /* Light Theme (Default) */
+  :root {
+   --background-color: #f8f8f8;
+   --text-color: #333;
+   --container-background-color: #fff;
+   --link-color: #007bff;
+  }
+
+  /* Dark Theme */
+  @media (prefers-color-scheme: dark) {
+   :root {
+    --background-color: #1e1e1e;
+    --text-color: #f8f8f8;
+    --container-background-color: #333;
+    --link-color: #5bc0de;
+   }
+   .container {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+   }
+   p.email a {
+    color: var(--text-color);
+   }
+  }
+ </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ihsan Tonuzi</h1>
+        <div class="links">
+            <a href="https://github.com/iton0" target="_blank" rel="noopener noreferrer">GitHub</a> |
+            <a href="https://www.linkedin.com/in/itonuzi" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <p class="email">
+            <a href="mailto:tonuzi.ihsan@gmail.com">tonuzi.ihsan@gmail.com</a>
+        </p>
+    </div>
+</body>
+</html>
