@@ -5,10 +5,10 @@ title = "Working on duss Pt 1"
 description = ""
 slug = ""
 authors = []
-tags = ["duss"]
+tags = []
 categories = ["devlog"]
 externalLink = ""
-series = []
+series = ["duss-devlog"]
 +++
 
 # Intro
