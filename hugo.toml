@@ -29,12 +29,6 @@ weight = 1
 url = "https://github.com/iton0/"
 
 [[params.social]]
-name = "Gitlab"
-icon = "fa-brands fa-gitlab fa-2x"
-weight = 2
-url = "https://gitlab.com/iton0/"
-
-[[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 3
