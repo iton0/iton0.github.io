@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ihsan Tonuzi</title>
 <style>
+  /* 1. Updated Body styles for perfect centering */
   body {
    font-family: sans-serif;
-   margin: 20px;
    line-height: 1.6;
    color: var(--text-color);
    background-color: var(--background-color);
    transition: background-color 0.3s ease, color 0.3s ease;
+   
+   /* Flexbox Centering */
+   display: flex;
+   justify-content: center; /* Horizontal centering */
+   align-items: center;     /* Vertical centering */
+   min-height: 100vh;       /* Takes up full screen height */
+   margin: 0;               /* Removes default browser margin */
   }
+
   .container {
+   width: 90%;              /* Responsive width */
    max-width: 600px;
-   margin: 0 auto;
    padding: 20px;
    background-color: var(--container-background-color);
    border-radius: 5px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
+
   h1 {
    font-size: 2em;
    margin-bottom: 10px;
    text-align: center;
   }
+
   .links {
    margin-top: 20px;
    text-align: center;
   }
+
   .links a {
    display: inline-block;
    margin: 0 10px;
@@ -38,18 +49,22 @@
    color: var(--link-color);
    transition: color 0.3s ease;
   }
+
   .links a:hover {
    text-decoration: underline;
   }
+
   p.email {
    margin-top: 20px;
    text-align: center;
   }
+
   p.email a {
    text-decoration: none;
    color: var(--text-color);
    transition: color 0.3s ease;
   }
+
   p.email a:hover {
    text-decoration: underline;
   }
